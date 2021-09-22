@@ -1,0 +1,488 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
+#hr-line,#hr-line1{
+	border: 2px solid blue !important;
+	background-color:#0d6efd !important;
+    color: #0d6efd;
+	margin: 20px 0px 45px 0px;
+}
+
+#hr-line{
+    width: 50%;
+}
+
+#hr-line1{
+    width: 30%;
+}
+
+.w-btn{
+    color: #fff;
+    font-size: 35px;
+    text-decoration: none;
+    outline: none;
+}
+
+.whatsappbtn{
+    width: 55px;
+    background-color: #20c997;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.floating-btn{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    z-index: 1;
+}
+
+/* Nav Bar*/
+
+.navigationbar{
+    color: #575757;
+    background-color: #fff !important;
+}
+
+.brand-img{
+	width: 220px;
+	height: 60px;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    margin-right: 7px;
+}
+
+.navbar ul li .nav-link:hover{
+    color: #fff !important;
+    background-color: #283593 !important;
+    transition: background-color 0.5s;
+}
+
+@media screen and (max-width: 375px){
+    .brand-img{
+        width: 150px;
+        height: 55px;
+    }
+}
+
+/*End Nav Bar*/
+
+.carousel,.ourvision,.ourmission,.benfits,.university,.team,.aboutus,.our-branches{
+    margin-bottom: 75px;
+}
+
+
+.cimg{
+    height: 570px;
+}
+
+@media screen and (max-width: 425px){
+    .cimg{
+        height: 250px;
+    }
+}
+/* Our Mission and vission*/
+.vision,.mission{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	width: 100%;
+}
+
+.vcontent{
+	width: 50%;
+	padding: 60px 30px;
+	font-size: 18px;
+    text-align: center;
+}
+
+.vimg{
+	width: 50%;
+	height: 300px;
+}
+
+
+
+.mcontent{
+	width: 50%;
+	padding: 60px 30px;
+	font-size: 18px;
+    text-align: center
+}
+
+.mimg{
+	width: 50%;
+	height: 300px;
+}
+
+@media screen and (max-width: 426px) {
+ 
+    .vision{
+        display: flex;
+        flex-direction: column;
+    }
+    .vcontent,.mcontent{
+        width: 100%;
+        padding: 0px !important;
+        text-align: center;
+    }
+    .vimg,.mimg{
+        width: 100%;
+        height: 300px;
+    }
+    .mission{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+
+
+/*End Our Mission and vission*/
+
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column2 {
+    width: 100%;
+  }
+}
+
+
+/* Benfits  */
+
+.benfits{
+	height: auto;
+	margin-top: 5px;
+}
+
+.ben{
+	height: 300px;
+}
+
+.ben-img,.ben-img1{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.ben-img{
+    background-image:url(asserts/images/ben3.jpg);
+}
+
+.ben-img1{
+    background-image: url(asserts/imgs/amrita-mbbs-admissions.jpg);
+}
+
+@media screen and (max-width:425px) {
+    .ben-img,.ben-img1{
+        background-size: contain;
+        height: 150px;
+    }
+}
+
+/* End of benfits  */
+	
+/*  University logos  */
+
+.university{
+	height: 320px;
+}
+
+.ulogo{
+	height: 190px;
+
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column1 {
+    width: 100%;
+  }
+}
+
+/* End of University logos  */
+
+
+
+/* Team Memberscards */
+
+.ourteam{
+    background-color: #f2f2f2;
+    padding: 30px 0px;
+}
+
+.team-btn{
+    background-color: #283593 !important;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.team-img{
+	width: 300px;
+	height: 215px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.card button:hover, a:hover {
+  color: skyblue;
+}
+
+/* End cards */
+
+/****Our Branches****/
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+    height: 400px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #fff;
+  color: #000;
+  transform: rotateY(180deg);
+    text-align: center;
+    padding-top: 110px;
+}
+
+/*Enquiry Form*/
+
+
+input[type=text],select
+            {
+                width:100%;
+                padding:12px 20px;
+                margin:8px 0;
+                display:inline-block;
+                border:1px solid #ccc;
+                box-sizing: border-box;
+                font-size: 14px;
+            }
+input[type=submit]:hover
+    {
+        background-color: #3949ab !important;
+        transition: background-color 0.3s;
+    }
+
+.formtitle{
+    color: black;
+    text-align: center;
+}
+div label{
+	 color: black;
+ }
+
+
+input[type=text], input[type=number], input[type=file],input[type=email] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+
+
+  textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+
+  
+  
+  input[type=submit] {
+	width: 100%;
+	background-color: #283593;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  .Submit_form{
+	width: 80%;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+
+
+
+  .submit_center{
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  flex-direction: column;
+	  
+	  padding-bottom: 20px;
+	  
+  }
+
+/* Footer  */
+/*Contact Us*/
+.bi-instagram{
+	color:#E1306C ;
+}
+.bi-facebook{
+	color: #4267B2;
+}
+.bi-twitter{
+	color: #00acee;
+}
+
+.bi-linkedin{
+	color: #0077b5;
+}
+
+.bi-mailbox2{
+	color: red;
+}
+
+.icons{
+	padding: 10px;
+}

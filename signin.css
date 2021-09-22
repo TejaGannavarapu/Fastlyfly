@@ -1,0 +1,37 @@
+body > table{
+    width: 80%;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+
+
+.boxsize{
+
+    margin-top: 100px;
+    width: 45%;
+    
+}
+
+.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+#data{
+    display: none;
+}
